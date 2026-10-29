@@ -48,7 +48,7 @@ The analysis focuses on data quality, accurate calculations, reusable functions,
 
 
 
-\- \*\*Python 3\*\* — data processing and analysis.
+\- \*\*Python  — data processing and analysis.
 
 \- \*\*CSV module\*\* — reading and writing CSV files.
 
@@ -164,7 +164,7 @@ The total is reported in Kenyan shillings (KES), formatted to two decimal places
 
 
 
-The `revenue\_by(rows, field)` function uses a plain Python dictionary to calculate revenue by a selected field.
+The `revenue_by(rows, field)` function uses a plain Python dictionary to calculate revenue by a selected field.
 
 
 
@@ -186,7 +186,7 @@ The product breakdown is sorted from highest to lowest revenue to identify the s
 
 
 
-The `top\_n(totals, n)` function returns a list of `(product, revenue)` tuples.
+The `top_n(totals, n)` function returns a list of `(product, revenue)` tuples.
 
 
 
@@ -198,7 +198,7 @@ The products are ranked using `sorted()` and a key function. Where two products 
 
 
 
-The `high\_value(rows, threshold)` function uses a list comprehension to select transactions with revenue greater than or equal to KES 50,000.
+The `high_value(rows, threshold)` function uses a list comprehension to select transactions with revenue greater than or equal to KES 50,000.
 
 
 
@@ -238,7 +238,7 @@ The statistics are calculated using cleaned, valid transaction revenues.
 
 
 
-The `verify\_with\_pandas(path, my\_results)` function independently recalculates headline figures using pandas.
+The `verify_with_pandas(path, my_results)` function independently recalculates headline figures using pandas.
 
 
 
@@ -340,7 +340,7 @@ The standard-library analysis should remain usable on the reporting server even 
 
 
 
-\## 8. Data Quality and Limitations
+## 8. Data Quality and Limitations
 
 
 
@@ -392,103 +392,103 @@ Total revenue (KES): 1,310,812.00
 
 Revenue by product (KES)
 
-&#x20; HP 15 Laptop                389,994.00
+HP 15 Laptop                389,994.00
 
-&#x20; Hisense 43in Smart TV       272,993.00
+Hisense 43in Smart TV       272,993.00
 
-&#x20; Lenovo Tab M10              199,992.00
+Lenovo Tab M10              199,992.00
 
-&#x20; Tecno Spark 20              161,988.00
+Tecno Spark 20              161,988.00
 
-&#x20; Infinix Hot 40               63,996.00
+Infinix Hot 40               63,996.00
 
-&#x20; Samsung Galaxy A15           56,997.00
+Samsung Galaxy A15           56,997.00
 
-&#x20; JBL Go 3 Speaker             49,491.00
+JBL Go 3 Speaker             49,491.00
 
-&#x20; Anker Power Bank 20000       38,691.00
+Anker Power Bank 20000       38,691.00
 
-&#x20; Xiaomi Redmi Buds            25,592.00
+Xiaomi Redmi Buds            25,592.00
 
-&#x20; Oraimo FreePods              19,593.00
+Oraimo FreePods              19,593.00
 
-&#x20; USB-C Charger 25W            19,487.00
+USB-C Charger 25W            19,487.00
 
-&#x20; Safaricom Neon Ray           11,998.00
+Safaricom Neon Ray           11,998.00
 
 
 
 Top 3 products
 
-&#x20; 1. HP 15 Laptop - KES 389,994.00
+1. HP 15 Laptop - KES 389,994.00
 
-&#x20; 2. Hisense 43in Smart TV - KES 272,993.00
+2. Hisense 43in Smart TV - KES 272,993.00
 
-&#x20; 3. Lenovo Tab M10 - KES 199,992.00
+3. Lenovo Tab M10 - KES 199,992.00
 
 
 
 High-value transactions (>= KES 50,000): 5
 
-&#x20; S-3022  2026-09-13  Nairobi CBD  HP 15 Laptop  KES 259,996.00
+S-3022  2026-09-13  Nairobi CBD  HP 15 Laptop  KES 259,996.00
 
-&#x20; S-3017  2026-09-10  Kisumu Mega Plaza  Hisense 43in Smart TV  KES 155,996.00
+S-3017  2026-09-10  Kisumu Mega Plaza  Hisense 43in Smart TV  KES 155,996.00
 
-&#x20; S-3048  2026-09-30  Kisumu Mega Plaza  HP 15 Laptop  KES 129,998.00
+S-3048  2026-09-30  Kisumu Mega Plaza  HP 15 Laptop  KES 129,998.00
 
-&#x20; S-3013  2026-09-08  Westgate  Lenovo Tab M10  KES 99,996.00
+S-3013  2026-09-08  Westgate  Lenovo Tab M10  KES 99,996.00
 
-&#x20; S-3036  2026-09-21  Nakuru Westside  Tecno Spark 20  KES 53,996.00
+S-3036  2026-09-21  Nakuru Westside  Tecno Spark 20  KES 53,996.00
 
 
 
 High-value sales per store
 
-&#x20; Kisumu Mega Plaza         2
+Kisumu Mega Plaza         2
 
-&#x20; Mombasa City Mall         0
+Mombasa City Mall         0
 
-&#x20; Nairobi CBD               1
+Nairobi CBD               1
 
-&#x20; Nakuru Westside           1
+Nakuru Westside           1
 
-&#x20; Westgate                  1
+Westgate                  1
 
 
 
 Transaction revenue statistics
 
-&#x20; mean   : 28,495.91
+mean   : 28,495.91
 
-&#x20; median : 11,097.00
+median : 11,097.00
 
-&#x20; min    : 1,499.00
+min    : 1,499.00
 
-&#x20; max    : 259,996.00
+max    : 259,996.00
 
 
 
 Revenue by store (KES)
 
-&#x20; Kisumu Mega Plaza           449,678.00
+Kisumu Mega Plaza           449,678.00
 
-&#x20; Nairobi CBD                 331,085.00
+Nairobi CBD                 331,085.00
 
-&#x20; Westgate                    235,979.00
+Westgate                    235,979.00
 
-&#x20; Mombasa City Mall           154,082.00
+Mombasa City Mall           154,082.00
 
-&#x20; Nakuru Westside             139,988.00
+Nakuru Westside             139,988.00
 
 
 
 Revenue by payment method (KES)
 
-&#x20; M-Pesa                      738,568.00
+M-Pesa                      738,568.00
 
-&#x20; Cash                        304,375.00
+Cash                        304,375.00
 
-&#x20; Card                        267,869.00
+Card                        267,869.00
 
 
 
