@@ -1,8 +1,8 @@
-\# Tech Hub Kenya — Sales Data Analysis
+# Tech Hub Kenya — Sales Data Analysis
 
 
 
-\## 1. Overview
+## 1. Overview
 
 
 
@@ -22,7 +22,7 @@ The analysis focuses on data quality, accurate calculations, reusable functions,
 
 
 
-\## 2. Learning Objectives
+## 2. Learning Objectives
 
 
 
@@ -44,7 +44,7 @@ The analysis focuses on data quality, accurate calculations, reusable functions,
 
 
 
-\## 3. Technologies Used
+## 3. Technologies Used
 
 
 
@@ -66,7 +66,7 @@ The core analysis is designed to run using Python's standard library without thi
 
 
 
-\## 4. Project Structure
+## 4. Project Structure
 
 
 
@@ -86,11 +86,11 @@ Sales\_Analysis\_Without\_Pandas/
 
 
 
-\## 5. Analysis Methodology
+## 5. Analysis Methodology
 
 
 
-\### 5.1 Reading the CSV File
+### 5.1 Reading the CSV File
 
 
 
@@ -110,7 +110,7 @@ This approach avoids using pandas for the initial data ingestion.
 
 
 
-\### 5.2 Cleaning and Converting Numeric Values
+### 5.2 Cleaning and Converting Numeric Values
 
 
 
@@ -144,7 +144,7 @@ These rules must be confirmed against the actual CSV. Any repair or exclusion sh
 
 
 
-\### 5.3 Calculating Total Revenue
+### 5.3 Calculating Total Revenue
 
 
 
@@ -160,7 +160,7 @@ The total is reported in Kenyan shillings (KES), formatted to two decimal places
 
 
 
-\### 5.4 Revenue Breakdown
+### 5.4 Revenue Breakdown
 
 
 
@@ -182,7 +182,7 @@ The product breakdown is sorted from highest to lowest revenue to identify the s
 
 
 
-\### 5.5 Top Three Products
+### 5.5 Top Three Products
 
 
 
@@ -210,7 +210,7 @@ The threshold is applied to transaction revenue, not unit price alone.
 
 
 
-\### 5.7 Descriptive Statistics
+### 5.7 Descriptive Statistics
 
 
 
@@ -234,7 +234,7 @@ The statistics are calculated using cleaned, valid transaction revenues.
 
 
 
-\### 5.8 Verification with Pandas
+### 5.8 Verification with Pandas
 
 
 
@@ -264,7 +264,7 @@ Any mismatch should be investigated and explained rather than ignored.
 
 
 
-\## 6. Key Outputs
+## 6. Key Outputs
 
 
 
@@ -292,7 +292,7 @@ The analysis is designed to report:
 
 
 
-\## 7. How to Run
+## 7. How to Run
 
 
 
@@ -360,7 +360,7 @@ The reliability of the results depends on the accuracy of the source CSV and the
 
 
 
-\## 9. Conclusion
+## 9. Conclusion
 
 
 
@@ -376,7 +376,7 @@ The resulting analysis provides the finance manager with a transparent view of r
 
 
 
-=== Sales report: September 2026 ===
+```=== Sales report: September 2026 ===
 
 Rows read          : 50
 
