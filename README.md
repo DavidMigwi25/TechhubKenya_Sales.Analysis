@@ -72,11 +72,11 @@ The core analysis is designed to run using Python's standard library without thi
 
 ```text
 
-Sales\_Analysis\_Without\_Pandas/
+Sales_Analysis_Without_Pandas/
 
-├── sales\_analysis.py
+├── sales_analysis.py
 
-├── electronic\_sales.csv
+├── electronic_sales.csv
 
 ├── README.md
 
