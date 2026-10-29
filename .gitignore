@@ -1,0 +1,12 @@
+# Python environment caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder
+analytica/
+
+# OS-specific system files
+.DS_Store
+Thumbs.db
